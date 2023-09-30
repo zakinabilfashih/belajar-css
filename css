@@ -1,0 +1,33 @@
+/*CSS untuk menu */
+.nav_menu {
+    overflow: hidden;
+    background-color: #333;
+}
+.nav_menu a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.nav_menu a:hover{
+    background-color: white;
+    color: green;
+}
+.active {
+    background-color: rgb(67, 6, 211);
+    color: green;
+}
+
+/* CSS untuk konten */
+.columA, .columB, .columC {
+    float: left;
+    width: 31%;
+    padding: 15px;
+    text-align:justify;
+}
+h2 {
+    color:green;
+    text-align:center;
+}
